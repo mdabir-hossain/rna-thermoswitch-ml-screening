@@ -1,0 +1,93 @@
+# Python cache and build artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large, generated, and interim data
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+library_60nt_sweep_with_seq.csv
+nupack_sweep_results.csv
+thermoswitch_10k_features.csv
+thermoswitch_10k_features.xlsx
+Generated_1000_RNA_Sequences.csv
+generated_10k_thermoswitches.csv
+generated_10k_scaffold_thermoswitches.csv
+top20_around70.csv
+
+# Model artefacts ignored until intentionally published
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.onnx
+models/*.pt
+models/*.pth
+models/*.h5
+
+# External tools and unwanted binaries
+KiTTY/
+KiTTY.zip
+*.exe
+*.dll
+*.so
+*.dylib
+*.cmd
+*.bat
+
+# Archives and duplicate bundles
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+final data file/
+final data file/zip/
+
+# Private academic drafts and unprofessional artefacts
+*.docx
+Data Science Project_Md Abir Hossain*.pdf
+Front_Matter_Title_and_Abstract*.docx
+*AutoRecovered*
+*The Final Boss*
+final data file/The Final Boss.pdf
+final data file/*Comments*.docx
+final data file/Updated Data Science Project.docx
+final data file/Data Science Project_Md Abir Hossain.docx
+
+# Local legacy artefacts pending manual review
+Project_Presentation.*
+Lead Sequence.png
+Screenshot_1.png
+thermoswitch.design
