@@ -1,4 +1,5 @@
 # RNA Thermoswitch ML Screening
+[![Tests](https://github.com/mdabir-hossain/rna-thermoswitch-ml-screening/actions/workflows/tests.yml/badge.svg)](https://github.com/mdabir-hossain/rna-thermoswitch-ml-screening/actions/workflows/tests.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Physics-guided ML pipeline for ranking simulated RNA thermoswitch candidates from thermodynamic features.
 
